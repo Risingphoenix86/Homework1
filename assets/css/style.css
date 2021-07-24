@@ -1,0 +1,129 @@
+* { /*Styling of full page*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { /*Setting background color for body of page*/
+    background-color: #d9dcd6;
+}
+
+header { /*Setting text color, background color, font and padding for the Page header*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 { /*setting h1 section to display inline, and settign font size*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+#seo { /*recolor of specific letters of the company title*/
+    color: #d9dcd6;
+}
+.headerlist { /*Setting bounding of header links, as well as organization and font typea and family*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+ul { /*setting list style type for header links*/
+    list-style-type: none;
+}
+
+li { /*giving each list item a margin on left side and lining them in blocks*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { /*settiong color of links in header and preventing changes to decoration when used*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p { /*setting base font size for remainder of page*/
+    font-size: 16px;
+}
+
+.hero { /*defining area for "hero" image, and setting a bottom margin*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left { /*setting class for picture placement formatting*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /*setting class for picture placement formatting*/
+    float: right;
+    margin-left: 25px;
+}
+
+content { /*setting area for main content of page*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-block { /*setting area for each content block, as well as font and block color*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-image { /*setting max height for each content image*/
+    max-height: 200px;
+}
+
+.content-headers { /*setting font size and bottom margin for each content heading*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits { /*settign area for benefits content of page*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+.benefits-header{ /*setting alignment for each benefit section header and bottom margin*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits-image { /*setting max size, margin, and display format for each beenfit image*/
+    display:block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefits-sub { /*setting bottom margin and text color for each benefit section*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+footer { /*setting font style and alignment for footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footerheading { /*settign font size for footer heading*/
+    font-size: 20px;
+}
